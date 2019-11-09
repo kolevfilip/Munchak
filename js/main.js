@@ -5,7 +5,7 @@ jQuery(document).ready(function($) {
     autoplayTimeout: 5000,
     margin: 0,
     nav: true,
-    dots: false,
+    dots: true,
     navText: [
       "<img src='images/left-arrow.png'>",
       "<img src='images/right-arrow.png'>"

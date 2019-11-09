@@ -75,6 +75,7 @@ a {
 .btn-rounded-sm {
   border-radius: 12px;
 }
+
 .btn-rounded-lg {
   border-radius: 40px;
 }
@@ -106,12 +107,15 @@ a {
 .mb-300 {
   margin-bottom: 300px;
 }
+
 .mb-100 {
   margin-bottom: 100px;
 }
+
 .mb-50 {
   margin-bottom: 50px;
 }
+
 .mb-80 {
   margin-bottom: 80px;
 }
@@ -124,15 +128,19 @@ a {
 .txt-white {
   color: #fff;
 }
+
 .txt-navy-blue {
   color: #1c2056;
 }
+
 .txt-blue {
   color: #1a56a3;
 }
+
 .txt-dark-purple {
   color: #2d2058;
 }
+
 .txt-dark-grey {
   color: #263238;
 }
@@ -144,6 +152,7 @@ a {
 .bg-light-blue {
   background-color: #2870db;
 }
+
 .bg-light-blue-02 {
   background-color: #3072c0;
 }
@@ -236,15 +245,15 @@ a {
 }
 
 .go-hiking .row:nth-child(2) .card-icon::before {
-  content: url("/images/image-01.png");
+  content: url("../images/image-01.png");
 }
 
 .go-hiking .row:nth-child(3) .card-icon::before {
-  content: url("/images/image-02.png");
+  content: url("../images/image-02.png");
 }
 
 .go-hiking .row:nth-child(4) .card-icon::before {
-  content: url("/images/image-03.png");
+  content: url("../images/image-03.png");
 }
 
 .counter {
@@ -263,6 +272,25 @@ a {
 .card-lg-content {
   padding: 40px;
 }
+
+/* owl dots */
+.blog-carousel .owl-dots button {
+  background: #a5a5a5;
+  width: 15px;
+  height: 15px;
+  margin: 10px;
+  border-radius: 50%;
+}
+
+.owl-dots {
+  text-align: center;
+}
+
+.blog-carousel .owl-dots .active {
+  background: #111;
+}
+
+/* owl arrows */
 
 .blog-carousel .owl-nav button {
   position: absolute;
@@ -286,7 +314,7 @@ a {
 }
 
 .footer {
-  background: url("/images/footer.png") bottom center no-repeat;
+  background: url("../images/footer.png") bottom center no-repeat;
 }
 
 .form-wrapper {
@@ -402,9 +430,11 @@ a {
 .menu-toggle span:nth-child(1) {
   top: 1px;
 }
+
 .menu-toggle span:nth-child(2) {
   top: 9px;
 }
+
 .menu-toggle span:nth-child(3) {
   top: 17px;
 }
@@ -437,13 +467,16 @@ a {
     position: initial;
     margin: 20px;
   }
+
   .blog-carousel .owl-nav {
     text-align: center;
   }
+
   @media screen and (max-width: 1000px) {
     .header {
-      background: url("/images/header-bg.png") top left no-repeat;
+      background: url("../images/header-bg.png") top left no-repeat;
     }
+
     .header-content-wrapper {
       margin: 0 auto;
       text-align: center;
@@ -455,6 +488,7 @@ a {
   .menu-toggle {
     display: block;
   }
+
   .navigation-wrap {
     left: -100%;
     position: absolute;
@@ -465,6 +499,7 @@ a {
     -o-transition: all 0.3s cubic-bezier(0.39, 0.58, 0.57, 1);
     transition: all 0.3s cubic-bezier(0.39, 0.58, 0.57, 1);
   }
+
   .navigation-wrap .main-navigation {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -483,15 +518,18 @@ a {
     height: 100%;
     background-color: #1a56a3;
   }
+
   .navigation-displayed {
     position: fixed;
     left: 0;
     display: block;
     overflow: hidden;
   }
+
   .navigation-item {
     margin: 30px;
   }
+
   .header {
     min-height: inherit;
     padding-top: 150px;
@@ -503,19 +541,24 @@ a {
   h1 {
     font-size: 35px;
   }
+
   h2 {
     font-size: 30px;
   }
+
   p {
     font-size: 16px;
   }
+
   .btn {
     font-size: 16px;
     padding: 18px 15px;
   }
+
   .mb-sm-230 {
     margin-bottom: 230px;
   }
+
   .section-sm-column {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -525,28 +568,35 @@ a {
     -ms-flex-align: center;
     align-items: center;
   }
+
   .counter {
     max-width: initial;
     margin-bottom: 50px;
   }
+
   .counter:last-child {
     margin-bottom: 0;
   }
+
   .form-wrapper {
     padding: 50px;
   }
+
   .form-input {
     padding: 15px;
   }
+
   .footer {
     background: #1a56a3;
     padding-top: 20px;
   }
+
   .section-sm-center {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
   }
+
   .footer-section {
     max-width: initial;
     margin-bottom: 30px;
@@ -557,12 +607,15 @@ a {
   .header {
     background: #fff;
   }
+
   .card-md {
     padding: 30px;
   }
+
   .form-wrapper {
     padding: 30px;
   }
+
   h2 {
     font-size: 23px;
   }
